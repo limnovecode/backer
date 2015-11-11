@@ -1,0 +1,105 @@
+// app/assets/stylesheets/publicboard/partials/_socialNetworks.scss
+
+//
+// Elements
+//
+
+.socialNetworks {
+  @include floatLeft;
+  width: 152px;
+  .socialNetworksBox {
+    @include floatLeft;
+    padding: 4px;
+    .socialNetworksList {
+      @include floatLeft;
+      margin: 4px;
+      .socialNetworksTitle {
+        @include floatLeft;
+        color: $blue20;
+        width: 136px;
+        font-size: 14px;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 18px;
+      }
+      .socialNetworksBtn {
+        @include floatLeft;
+        .socialNetworksImg {
+          @include floatLeft;
+          color: $gray30;
+          font-size: 12px;
+          border-radius: 32px;
+        }
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .socialNetworks {
+    margin: 32px 74px;
+    .socialNetworksBox {
+      .socialNetworksList {
+        .socialNetworksText {
+        }
+        .socialNetworksBtn {
+          .socialNetworksImg {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .socialNetworks {
+    margin: 32px 194px;
+    .socialNetworksBox {
+      .socialNetworksList {
+        .socialNetworksText {
+        }
+        .socialNetworksBtn {
+          .socialNetworksImg {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .socialNetworks {
+    margin: 32px 284px;
+    .socialNetworksBox {
+      .socialNetworksList {
+        .socialNetworksText {
+        }
+        .socialNetworksBtn {
+          .socialNetworksImg {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .socialNetworks {
+    margin: 32px 402px;
+    .socialNetworksBox {
+      .socialNetworksList {
+        .socialNetworksText {
+        }
+        .socialNetworksBtn {
+          .socialNetworksImg {
+          }
+        }
+      }
+    }
+  }
+}

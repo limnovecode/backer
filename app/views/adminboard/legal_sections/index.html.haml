@@ -1,0 +1,23 @@
+-# app/views/adminboard/legal_sections/index.html.haml
+
+%h1 Listing legal section
+
+%table
+  %tr
+    %th Title
+    %th Active
+    %th
+    %th
+    %th
+
+  - @legal_sections.each do |legal_section|
+    %tr
+      %td= legal_section.title
+      %td= legal_section.active
+      %td= link_to "Show", [:adminboard, legal_section]
+      %td= link_to "Edit", edit_adminboard_legal_section_path(legal_section)
+      %td= link_to "Destroy", [:adminboard, legal_section], method: :delete, data: { confirm: "Are you sure?" }
+
+%br
+
+= link_to "New Legal Section", new_adminboard_legal_section_path

@@ -1,0 +1,8 @@
+-# app/views/adminboard/password_resets/_form_new.html.haml
+
+= form_tag adminboard_password_resets_path, autocomplete: :off do
+  .field
+    = label_tag "Email"
+    = text_field_tag :email, nil
+  .actions
+    = submit_tag "Send"

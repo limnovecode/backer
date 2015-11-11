@@ -1,0 +1,32 @@
+# robots.txt
+
+# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+
+User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /adminboard/
+Disallow: /app/
+Disallow: /bin/
+Disallow: /config/
+Disallow: /db/
+Disallow: /lib/
+Disallow: /log/
+Disallow: /public/misc/
+Disallow: /public/uploads/
+Disallow: /tmp/
+Disallow: /vendor/
+Disallow: /.env
+Disallow: /.gitignore
+Disallow: /.rubocop.yml
+Disallow: /.ruby_version
+Disallow: /.travis.yml
+Disallow: /app.json
+Disallow: /config.ru
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
+Disallow: /Procfile
+Disallow: /Rakefile
+Disallow: /README.md
+Disallow: /legal/

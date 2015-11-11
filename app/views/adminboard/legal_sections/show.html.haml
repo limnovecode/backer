@@ -1,0 +1,12 @@
+-# app/views/adminboard/legal_sections/show.html.haml
+
+%p
+  %b Title:
+  = @legal_section.title
+%p
+  %b Active:
+  = @legal_section.active
+
+= link_to "Edit", edit_adminboard_legal_section_path(@legal_section)
+
+= link_to "Back", adminboard_legal_sections_path

@@ -1,0 +1,466 @@
+// app/assets/stylesheets/adminboard/partials/_colors.scss
+
+//////////////////////////////////////////  Main  //////////////////////////////////////////
+
+$purple:       #f3e8fb, #d2a3ef, #b15ee3, #901ad8, #641297, #390a56, #0e0215;
+$blue:         #e8f4fd, #a4d5f9, #60b5f5, #1d96f2, #1469a9, #0b3c60, #020f18;
+$green:        #e8faf2, #a3ebce, #5eddaa, #19cf86, #11905d, #0a5235, #02140d;
+$red:          #fce8ed, #f5a4b8, #ee6083, #e81c4f, #a21337, #5c0b1f, #170207;
+$yellow:       #fef7e8, #fde2a5, #fbcd61, #fab81e, #af8015, #64490c, #191203;
+$gray:         #f2f3f3, #cdcfd1, #a7abaf, #82888d, #5b5f62, #343638, #0d0d0e;
+
+//
+//  Purple
+//
+
+$purple03: nth($purple, 1);
+$purple02: nth($purple, 2);
+$purple01: nth($purple, 3);
+$purple00: nth($purple, 4);
+$purple10: nth($purple, 5);
+$purple20: nth($purple, 6);
+$purple30: nth($purple, 7);
+
+//
+// Fonts
+//
+
+.purple03Ft {
+  color: $purple03;
+}
+
+.purple02Ft {
+  color: $purple02;
+}
+
+.purple01Ft {
+  color: $purple01;
+}
+
+.purple00Ft {
+  color: $purple00;
+}
+
+.purple10Ft {
+  color: $purple10;
+}
+
+.purple20Ft {
+  color: $purple20;
+}
+
+.purple30Ft {
+  color: $purple30;
+}
+
+//
+// Backgrounds
+//
+
+.purple03Bg {
+  background-color: $purple03;
+}
+
+.purple02Bg {
+  background-color: $purple02;
+}
+
+.purple01Bg {
+  background-color: $purple01;
+}
+
+.purple00Bg {
+  background-color: $purple00;
+}
+
+.purple10Bg {
+  background-color: $purple10;
+}
+
+.purple20Bg {
+  background-color: $purple20;
+}
+
+.purple30Bg {
+  background-color: $purple30;
+}
+
+//
+//  Blue
+//
+
+$blue03: nth($blue, 1);
+$blue02: nth($blue, 2);
+$blue01: nth($blue, 3);
+$blue00: nth($blue, 4);
+$blue10: nth($blue, 5);
+$blue20: nth($blue, 6);
+$blue30: nth($blue, 7);
+
+//
+// Fonts
+//
+
+.blue03Ft {
+  color: $blue03;
+}
+
+.blue02Ft {
+  color: $blue02;
+}
+
+.blue01Ft {
+  color: $blue01;
+}
+
+.blue00Ft {
+  color: $blue00;
+}
+
+.blue10Ft {
+  color: $blue10;
+}
+
+.blue20Ft {
+  color: $blue20;
+}
+
+.blue30Ft {
+  color: $blue30;
+}
+
+//
+// Backgrounds
+//
+
+.blue03Bg {
+  background-color: $blue03;
+}
+
+.blue02Bg {
+  background-color: $blue02;
+}
+
+.blue01Bg {
+  background-color: $blue01;
+}
+
+.blue00Bg {
+  background-color: $blue00;
+}
+
+.blue10Bg {
+  background-color: $blue10;
+}
+
+.blue20Bg {
+  background-color: $blue20;
+}
+
+.blue30Bg {
+  background-color: $blue30;
+}
+
+//
+//  Green
+//
+
+$green03: nth($green, 1);
+$green02: nth($green, 2);
+$green01: nth($green, 3);
+$green00: nth($green, 4);
+$green10: nth($green, 5);
+$green20: nth($green, 6);
+$green30: nth($green, 7);
+
+//
+// Fonts
+//
+
+.green03Ft {
+  color: $green03;
+}
+
+.green02Ft {
+  color: $green02;
+}
+
+.green01Ft {
+  color: $green01;
+}
+
+.green00Ft {
+  color: $green00;
+}
+
+.green10Ft {
+  color: $green10;
+}
+
+.green20Ft {
+  color: $green20;
+}
+
+.green30Ft {
+  color: $green30;
+}
+
+//
+// Backgrounds
+//
+
+.green03Bg {
+  background-color: $green03;
+}
+
+.green02Bg {
+  background-color: $green02;
+}
+
+.green01Bg {
+  background-color: $green01;
+}
+
+.green00Bg {
+  background-color: $green00;
+}
+
+.green10Bg {
+  background-color: $green10;
+}
+
+.green20Bg {
+  background-color: $green20;
+}
+
+.green30Bg {
+  background-color: $green30;
+}
+
+//
+//  Red
+//
+
+$red03: nth($red, 1);
+$red02: nth($red, 2);
+$red01: nth($red, 3);
+$red00: nth($red, 4);
+$red10: nth($red, 5);
+$red20: nth($red, 6);
+$red30: nth($red, 7);
+
+//
+// Fonts
+//
+
+.red03Ft {
+  color: $red03;
+}
+
+.red02Ft {
+  color: $red02;
+}
+
+.red01Ft {
+  color: $red01;
+}
+
+.red00Ft {
+  color: $red00;
+}
+
+.red10Ft {
+  color: $red10;
+}
+
+.red20Ft {
+  color: $red20;
+}
+
+.red30Ft {
+  color: $red30;
+}
+
+//
+// Backgrounds
+//
+
+.red03Bg {
+  background-color: $red03;
+}
+
+.red02Bg {
+  background-color: $red02;
+}
+
+.red01Bg {
+  background-color: $red01;
+}
+
+.red00Bg {
+  background-color: $red00;
+}
+
+.red10Bg {
+  background-color: $red10;
+}
+
+.red20Bg {
+  background-color: $red20;
+}
+
+.red30Bg {
+  background-color: $red30;
+}
+
+//
+//  Yellow
+//
+
+$yellow03: nth($yellow, 1);
+$yellow02: nth($yellow, 2);
+$yellow01: nth($yellow, 3);
+$yellow00: nth($yellow, 4);
+$yellow10: nth($yellow, 5);
+$yellow20: nth($yellow, 6);
+$yellow30: nth($yellow, 7);
+
+//
+// Fonts
+//
+
+.yellow03Ft {
+  color: $yellow03;
+}
+
+.yellow02Ft {
+  color: $yellow02;
+}
+
+.yellow01Ft {
+  color: $yellow01;
+}
+
+.yellow00Ft {
+  color: $yellow00;
+}
+
+.yellow10Ft {
+  color: $yellow10;
+}
+
+.yellow20Ft {
+  color: $yellow20;
+}
+
+.yellow30Ft {
+  color: $yellow30;
+}
+
+//
+// Backgrounds
+//
+
+.yellow03Bg {
+  background-color: $yellow03;
+}
+
+.yellow02Bg {
+  background-color: $yellow02;
+}
+
+.yellow01Bg {
+  background-color: $yellow01;
+}
+
+.yellow00Bg {
+  background-color: $yellow00;
+}
+
+.yellow10Bg {
+  background-color: $yellow10;
+}
+
+.yellow20Bg {
+  background-color: $yellow20;
+}
+
+.yellow30Bg {
+  background-color: $yellow30;
+}
+
+//
+//  Gray
+//
+
+$gray03: nth($gray, 1);
+$gray02: nth($gray, 2);
+$gray01: nth($gray, 3);
+$gray00: nth($gray, 4);
+$gray10: nth($gray, 5);
+$gray20: nth($gray, 6);
+$gray30: nth($gray, 7);
+
+//
+// Fonts
+//
+
+.gray03Ft {
+  color: $gray03;
+}
+
+.gray02Ft {
+  color: $gray02;
+}
+
+.gray01Ft {
+  color: $gray01;
+}
+
+.gray00Ft {
+  color: $gray00;
+}
+
+.gray10Ft {
+  color: $gray10;
+}
+
+.gray20Ft {
+  color: $gray20;
+}
+
+.gray30Ft {
+  color: $gray30;
+}
+
+//
+// Backgrounds
+//
+
+.gray03Bg {
+  background-color: $gray03;
+}
+
+.gray02Bg {
+  background-color: $gray02;
+}
+
+.gray01Bg {
+  background-color: $gray01;
+}
+
+.gray00Bg {
+  background-color: $gray00;
+}
+
+.gray10Bg {
+  background-color: $gray10;
+}
+
+.gray20Bg {
+  background-color: $gray20;
+}
+
+.gray30Bg {
+  background-color: $gray30;
+}

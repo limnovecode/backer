@@ -1,0 +1,127 @@
+// app/assets/stylesheets/publicboard/partials/_stores.scss
+
+//
+// Elements
+//
+
+.stores {
+  @include floatRight;
+  margin: 64px 0 0 0;
+  .storesBox {
+    @include floatLeft;
+    .storesItem {
+      @include floatLeft;
+      margin: 8px;
+      .storesTitle {
+        @include floatLeft;
+        color: $gray20;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 2em;
+      }
+      .storesText {
+        @include floatLeft;
+        color: $gray00;
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.6em;
+        text-align: center;
+      }
+      .storesLink {
+        @include floatLeft;
+        width: 188px;
+        height: 64px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 64px;
+        border-radius: 30px;
+        &:link,
+        &:visited {
+          color: $purple03;
+          background-color: $purple00;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+          color: $purple02;
+          background-color: $purple10;
+        }
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .stores {
+    .storesBox {
+      .storesItem {
+        width: 284px;
+        .storesTitle {
+        }
+        .storesText {
+        }
+        .storesLink {
+          margin: 16px 46px 0 46px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .stores {
+    .storesBox {
+      .storesItem {
+        width: 524px;
+        .storesTitle {
+        }
+        .storesText {
+        }
+        .storesLink {
+          margin: 16px 166px 0 166px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .stores {
+    .storesBox {
+      .storesItem {
+        width: 704px;
+        .storesTitle {
+        }
+        .storesText {
+        }
+        .storesLink {
+          margin: 16px 256px 0 256px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .stores {
+    .storesBox {
+      .storesItem {
+        width: 944px;
+        .storesTitle {
+        }
+        .storesText {
+        }
+        .storesLink {
+          margin: 16px 376px 0 376px;
+        }
+      }
+    }
+  }
+}

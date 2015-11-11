@@ -1,0 +1,84 @@
+// app/assets/stylesheets/publicboard/partials/_logo.scss
+
+//
+// Elements
+//
+
+.logo {
+  @include floatLeft;
+  .logoBox {
+    @include floatLeft;
+    .logoList {
+      @include floatLeft;
+      margin: 8px;
+      .logoBtn {
+        @include floatLeft;
+        &:link,
+        &:visited {
+          background-color: $purple00;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: $purple01;
+        }
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .logo {
+    .logoBox {
+      .logoList {
+        .logoBtn {
+          width: 48px;
+          height: 48px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .logo {
+    .logoBox {
+      .logoList {
+        .logoBtn {
+          width: 48px;
+          height: 48px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .logo {
+    .logoBox {
+      .logoList {
+        .logoBtn {
+          width: 64px;
+          height: 64px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .logo {
+    .logoBox {
+      .logoList {
+        .logoBtn {
+          width: 64px;
+          height: 64px;
+        }
+      }
+    }
+  }
+}

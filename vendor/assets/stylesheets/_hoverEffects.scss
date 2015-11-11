@@ -1,0 +1,15 @@
+// vendor/assets/stylesheets/_hoverEffects.scss
+
+//
+//  Elements
+//
+
+@import "prefixes";
+
+@mixin hoverAnimation {
+  @include prefix(transition, (color 0.2s ease-out, background 0.2s ease-in));
+}
+
+.hoverAnimation {
+  @include hoverAnimation;
+}

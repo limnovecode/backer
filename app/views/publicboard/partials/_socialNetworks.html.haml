@@ -1,0 +1,10 @@
+-# app/views/publicboard/partials/_socialNetworks.html.haml
+
+.socialNetworks
+  .socialNetworksBox
+    .socialNetworksList
+      %h3.socialNetworksTitle Follow Us
+    .socialNetworksList
+      = link_to image_tag("publicboard/facebookIcon", alt: "Facebook Icon", title: campaign_name, class:"socialNetworksImg"), root_path, class: "socialNetworksBtn"
+    .socialNetworksList
+      = link_to image_tag("publicboard/twitterIcon", alt: "Twitter Icon", title: campaign_name, class:"socialNetworksImg"), root_path, class: "socialNetworksBtn"

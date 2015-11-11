@@ -1,0 +1,17 @@
+// vendor/assets/stylesheets/_selection.scss
+
+//
+//  Elements
+//
+
+::selection {
+  color: #ffffff;
+  background-color: #000080;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  color: #ffffff;
+  background-color: #000080;
+  text-shadow: none;
+}

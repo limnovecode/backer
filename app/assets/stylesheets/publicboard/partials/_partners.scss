@@ -1,0 +1,100 @@
+// app/assets/stylesheets/publicboard/partials/_partners.scss
+
+//
+// Elements
+//
+
+.partners {
+  @include floatRight;
+  margin: 64px 0;
+  .partnersBox {
+    @include floatLeft;
+    .partnersItem {
+      @include floatLeft;
+      margin: 8px;
+      .partnersTitle {
+        @include floatLeft;
+        color: $gray20;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 2em;
+      }
+      .partnersText {
+        @include floatLeft;
+        color: $gray00;
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.6em;
+        text-align: center;
+      }
+    }
+    .partnersList {
+      @include floatLeft;
+      background-color: $purple20;
+      margin: 8px;
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .partners {
+    .partnersBox {
+      .partnersItem {
+        width: 284px;
+      }
+      .partnersList {
+        width: 134px;
+        height: 134px;
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .partners {
+    .partnersBox {
+      .partnersItem {
+        width: 524px;
+      }
+      .partnersList {
+        width: 119px;
+        height: 119px;
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .partners {
+    .partnersBox {
+      .partnersItem {
+        width: 704px;
+      }
+      .partnersList {
+        width: 164px;
+        height: 164px;
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .partners {
+    .partnersBox {
+      .partnersItem {
+        width: 944px;
+      }
+      .partnersList {
+        width: 224px;
+        height: 224px;
+      }
+    }
+  }
+}

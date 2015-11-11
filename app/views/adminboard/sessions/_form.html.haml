@@ -1,0 +1,11 @@
+-# app/views/adminboard/sessions/_form.html.haml
+
+= form_tag adminboard_sessions_path, autocomplete: :off do
+  .field
+    = label_tag "Email"
+    = text_field_tag :email, nil
+  .field
+    = label_tag "Password"
+    = password_field_tag :password, nil
+  .actions
+    = submit_tag "Enter"

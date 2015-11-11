@@ -1,0 +1,78 @@
+// app/assets/stylesheets/publicboard/partials/_back.scss
+
+//
+// Elements
+//
+
+.back {
+  @include floatRight;
+  .backBox {
+    @include floatLeft;
+    .backList {
+      @include floatLeft;
+      margin: 8px;
+      .backBtn {
+        @include floatLeft;
+        width: 64px;
+        height: 64px;
+        &:link,
+        &:visited {
+          background-color: $purple00;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: $purple00;
+        }
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .back {
+    .backBox {
+      .backList {
+        .backBtn {
+        }
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .back {
+    .backBox {
+      .backList {
+        .backBtn {
+        }
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .back {
+    .backBox {
+      .backList {
+        .backBtn {
+        }
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .back {
+    .backBox {
+      .backList {
+        .backBtn {
+        }
+      }
+    }
+  }
+}

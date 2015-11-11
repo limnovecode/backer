@@ -1,0 +1,11 @@
+-# app/views/adminboard/password_resets/_form_edit.html.haml
+
+= form_for [:adminboard, object], url: adminboard_password_reset_path(params[:id]), html: {autocomplete: :off} do |f|
+  .field
+    = f.label :password
+    = f.password_field :password, autocomplete: :off
+  .field
+    = f.label :password_confirmation
+    = f.password_field :password_confirmation, autocomplete: :off
+  .actions
+    = f.submit "Save"

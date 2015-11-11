@@ -1,0 +1,8 @@
+-# app/views/publicboard/partials/_copyright.html.haml
+
+.copyright
+  .copyrightBox
+    .copyrightList
+      = link_to image_tag("publicboard/lim9SmallIcon.png", alt: "Lim9 Small Icon", title: campaign_name, class:"copyrightImg"), root_path, class: "copyrightBtn"
+    .copyrightList
+      %p.copyrightText Lim9 © #{Time.now.year}

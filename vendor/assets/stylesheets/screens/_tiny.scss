@@ -1,0 +1,46 @@
+// vendor/assets/stylesheets/screens/_tiny.scss
+
+//
+//  Elements
+//
+
+$width: 50px, 60px, 75px, 100px, 120px, 150px, 180px, 200px, 225px, 240px, 250px, 300px;
+
+$width01: nth($width, 1);
+$width02: nth($width, 2);
+$width03: nth($width, 3);
+$width04: nth($width, 4);
+$width05: nth($width, 5);
+$width06: nth($width, 6);
+$width07: nth($width, 7);
+$width08: nth($width, 8);
+$width09: nth($width, 9);
+$width10: nth($width, 10);
+$width11: nth($width, 11);
+$width12: nth($width, 12);
+
+.row01Left { min-width: $width01;}
+.row02Left { min-width: $width02;}
+.row03Left { min-width: $width03;}
+.row04Left { min-width: $width04;}
+.row05Left { min-width: $width05;}
+.row06Left { min-width: $width06;}
+.row07Left { min-width: $width07;}
+.row08Left { min-width: $width08;}
+.row09Left { min-width: $width09;}
+.row10Left { min-width: $width10;}
+.row11Left { min-width: $width11;}
+.row12Left { min-width: $width12;}
+
+.row01Right { min-width: $width01;}
+.row02Right { min-width: $width01;}
+.row03Right { min-width: $width01;}
+.row04Right { min-width: $width01;}
+.row05Right { min-width: $width01;}
+.row06Right { min-width: $width01;}
+.row07Right { min-width: $width01;}
+.row08Right { min-width: $width01;}
+.row09Right { min-width: $width01;}
+.row10Right { min-width: $width01;}
+.row11Right { min-width: $width01;}
+.row12Right { min-width: $width01;}

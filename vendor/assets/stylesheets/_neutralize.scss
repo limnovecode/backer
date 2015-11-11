@@ -1,0 +1,269 @@
+// vendor/assets/stylesheets/neutralize.scss
+
+//
+//  Elements
+//
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif, Helvetica, Arial;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button,
+[type="reset"],
+[type="submit"],
+[type="button"] {
+  background: transparent;
+  cursor: pointer;
+}
+
+div,
+span,
+section,
+nav,
+article,
+aside,
+header,
+footer,
+main {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: transparent solid 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: block;
+}
+
+a,
+base,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+em,
+abbr,
+address,
+bdo,
+blockquote,
+cite,
+q,
+code,
+ins,
+del,
+dfn,
+kbd,
+pre,
+samp,
+var,
+br,
+data,
+time,
+mark,
+ruby,
+rt,
+rp,
+bdi,
+wbr {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  border: transparent solid 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  white-space: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: transparent solid 0;
+}
+
+img,
+area,
+map,
+object,
+param,
+figure,
+figcaption,
+embed,
+video,
+audio,
+source,
+track,
+canvas,
+svg {
+  background: transparent;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: transparent solid 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: block;
+}
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-transform: none;
+  border: transparent solid 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1em;
+}
+
+table,
+tr,
+td,
+th,
+tbody,
+thead,
+tfoot,
+col,
+colgroup,
+caption {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: none;
+  border: transparent solid 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  vertical-align: baseline;
+}
+
+form,
+input,
+textarea,
+select,
+option,
+optgroup,
+button,
+label,
+fieldset,
+legend,
+datalist,
+keygen,
+output,
+progress,
+meter {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: none;
+  border: transparent solid 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+form:focus,
+input:focus,
+textarea:focus,
+select:focus,
+option:focus,
+optgroup:focus,
+button:focus,
+label:focus,
+fieldset:focus,
+legend:focus,
+datalist:focus,
+keygen:focus,
+output:focus,
+progress:focus,
+meter:focus {
+  border: transparent solid 0;
+  outline: 0 solid transparent;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  width: 13px;
+  height: 13px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+}
+
+[type="file"] {
+  margin: 0;
+  padding: 0;
+
+  // display: none;
+  // visibility: hidden;
+}
+
+[type="search"] {
+  box-sizing: content-box;
+}
+
+textarea {
+  overflow: auto;
+}
+
+button {
+  border-radius: 0;
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+b,
+i,
+tt,
+sub,
+sup,
+small,
+hr,
+details,
+summary,
+menuitem,
+menu {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: none;
+  border: transparent solid 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clear {
+  width: 0;
+  height: 0;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+}

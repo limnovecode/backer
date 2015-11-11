@@ -1,0 +1,44 @@
+// vendor/assets/stylesheets/_rows.scss
+
+//
+//  Elements
+//
+
+.row00Left,
+.row00Right {
+  width: 100%
+}
+
+.row00Left,
+.row01Left,
+.row02Left,
+.row03Left,
+.row04Left,
+.row05Left,
+.row06Left,
+.row07Left,
+.row08Left,
+.row09Left,
+.row10Left,
+.row11Left,
+.row12Left {
+  @include floatLeft;
+  margin: 0 auto;
+}
+
+.row00Right,
+.row01Right,
+.row02Right,
+.row03Right,
+.row04Right,
+.row05Right,
+.row06Right,
+.row07Right,
+.row08Right,
+.row09Right,
+.row10Right,
+.row11Right,
+.row12Right {
+  @include floatRight;
+  margin: 0 auto;
+}

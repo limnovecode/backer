@@ -1,0 +1,96 @@
+// app/assets/stylesheets/publicboard/partials/_copyright.scss
+
+//
+// Elements
+//
+
+.copyright {
+  @include floatLeft;
+  .copyrightBox {
+    @include floatLeft;
+    padding: 4px;
+    .copyrightList {
+      @include floatLeft;
+      margin: 4px;
+      .copyrightText {
+        @include floatLeft;
+        color: $purple01;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 32px;
+      }
+      .copyrightBtn {
+        @include floatLeft;
+        .copyrightImg {
+          @include floatLeft;
+          color: $gray30;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .copyright {
+    .copyrightBox {
+      .copyrightList {
+        .copyrightText {
+        }
+        .copyrightBtn {
+          .copyrightImg {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .copyright {
+    .copyrightBox {
+      .copyrightList {
+        .copyrightText {
+        }
+        .copyrightBtn {
+          .copyrightImg {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .copyright {
+    .copyrightBox {
+      .copyrightList {
+        .copyrightText {
+        }
+        .copyrightBtn {
+          .copyrightImg {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .copyright {
+    .copyrightBox {
+      .copyrightList {
+        .copyrightText {
+        }
+        .copyrightBtn {
+          .copyrightImg {
+          }
+        }
+      }
+    }
+  }
+}

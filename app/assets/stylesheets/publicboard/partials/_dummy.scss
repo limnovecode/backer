@@ -1,0 +1,57 @@
+// app/assets/stylesheets/private/partials/_dummy.scss
+
+//
+// Elements
+//
+
+.dummy {
+  @include floatLeft;
+
+  .dummyBox {
+    @include floatLeft;
+
+    .dummyItem {
+      @include floatLeft;
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .dummy {
+    .dummyBox {
+      .dummyItem {
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .dummy {
+    .dummyBox {
+      .dummyItem {
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .dummy {
+    .dummyBox {
+      .dummyItem {
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .dummy {
+    .dummyBox {
+      .dummyItem {
+      }
+    }
+  }
+}

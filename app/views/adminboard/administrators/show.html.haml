@@ -1,0 +1,27 @@
+-# app/views/adminboard/administrators/show.html.haml
+
+%p
+  %b Slug:
+  = @administrator.slug
+%p
+  %b Email:
+  = @administrator.email
+%p
+  %b Password digest:
+  = @administrator.password_digest
+%p
+  %b Authentication token:
+  = @administrator.authentication_token
+%p
+  %b Reset password token:
+  = @administrator.reset_password_token
+%p
+  %b Reset password sent at:
+  = @administrator.reset_password_sent_at
+%p
+  %b Sudo:
+  = @administrator.sudo
+
+= link_to "Edit", edit_adminboard_administrator_path(@administrator)
+
+= link_to "Back", adminboard_administrators_path

@@ -1,0 +1,58 @@
+-# app/views/publicboard/home/show.html.haml
+
+-# start: Header
+= render partial: "publicboard/home/header"
+-# end: Header
+
+.universal.purple01Bg
+  .placeholder
+    .wrap
+      .row12Left
+        -# start: Billboard
+        = render partial: "billboard"
+        -# end: Billboard
+    .clear
+
+.universal
+  .placeholder
+    .wrap
+      .row12Left
+        -# start: Stores
+        = render partial: "stores"
+        -# end: Stores
+    .clear
+
+.universal
+  .wrap
+    .row00Left
+      -# start: Map
+      = render partial: "map"
+      -# end: Map
+  .clear
+
+.universal
+  .placeholder
+    .wrap
+      .row12Left
+        -# start: Partners
+        = render partial: "partners"
+        -# end: Partners
+    .clear
+
+.universal
+  .placeholder
+    .wrap
+      .row12Left
+        -# start: Podium
+        = render partial: "podium"
+        -# end: Podium
+    .clear
+
+.universal
+  .placeholder
+    .wrap
+      .row12Left
+        -# start: Schools
+        = render partial: "schools"
+        -# end: Schools
+    .clear

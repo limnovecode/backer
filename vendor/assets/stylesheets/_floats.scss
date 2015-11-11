@@ -1,0 +1,41 @@
+// vendor/assets/stylesheets/_floats.scss
+
+//
+//  Elements
+//
+
+@mixin floatLeft {
+  display: block;
+  float: left;
+}
+
+@mixin floatInlineLeft {
+  display: inline-block;
+  float: left;
+}
+
+@mixin floatRight {
+  display: block;
+  float: right;
+}
+
+@mixin floatInlineRight {
+  display: inline-block;
+  float: right;
+}
+
+.floatLeft {
+  @include floatLeft;
+}
+
+.floatInlineLeft {
+  @include floatInlineLeft;
+}
+
+.floatRight {
+  @include floatRight;
+}
+
+.floatInlineRight {
+  @include floatInlineRight;
+}

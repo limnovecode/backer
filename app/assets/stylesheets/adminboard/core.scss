@@ -1,0 +1,21 @@
+// app/assets/stylesheets/adminboard/core.scss
+
+//
+//  MUST STAY ON HIGHER LEVEL
+//
+
+@import "adminboard/partials/colors";
+@import "neutralize";
+@import "prefixes";
+@import "floats";
+@import "rows";
+@import "hidden";
+@import "selection";
+@import "hoverEffects";
+
+//
+//  Elements
+//
+
+@import "adminboard/partials/mediaQueries";
+@import "adminboard/partials/colorGrid";

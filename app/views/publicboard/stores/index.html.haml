@@ -1,0 +1,22 @@
+-# app/views/publicboard/stores/index.html.haml
+
+-# start: Header
+= render partial: "publicboard/stores/header"
+-# end: Header
+
+%main.universal
+  .placeholder
+    .wrap
+      .row12Left
+        -# start: List
+        = render partial: "publicboard/stores/list"
+        -# end: List
+    .clear
+
+.universal
+  .wrap
+    .row00Left
+      -# start: Map
+      = render partial: "map"
+      -# end: Map
+  .clear

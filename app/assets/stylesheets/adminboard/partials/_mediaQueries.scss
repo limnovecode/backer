@@ -1,0 +1,68 @@
+// app/assets/stylesheets/adminboard/partials/_mediaQueries.scss
+
+//
+//  Elements
+//
+
+$tiny:   "(max-width: 539px)";
+$small:  "(min-width: 540px) and (max-width: 719px)";
+$medium: "(min-width: 720px) and (max-width: 959px)";
+$large:  "(min-width: 960px)";
+
+@media #{$tiny} {
+  @import "screens/tiny";
+
+  body {
+    min-width: 300px;
+    max-width: 539px;
+
+    .universal {
+      .placeholder {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  @import "screens/small";
+
+  body {
+    min-width: 540px;
+    max-width: 719px;
+
+    .universal {
+      .placeholder {
+        width: 540px;
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  @import "screens/medium";
+
+  body {
+    min-width: 720px;
+    max-width: 959px;
+
+    .universal {
+      .placeholder {
+        width: 720px;
+      }
+    }
+  }
+}
+@media #{$large} {
+  @import "screens/large";
+
+  body {
+    min-width: 960px;
+
+    .universal {
+      .placeholder {
+        width: 960px;
+      }
+    }
+  }
+}

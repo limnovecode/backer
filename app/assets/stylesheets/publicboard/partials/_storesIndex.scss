@@ -1,0 +1,125 @@
+// app/assets/stylesheets/publicboard/partials/_storesIndex.scss
+
+//
+// Elements
+//
+
+.storesIndex {
+  @include floatRight;
+  margin: 0 0 64px 0;
+  .storesIndexBox {
+    @include floatLeft;
+    .storesIndexItem {
+      @include floatLeft;
+      margin: 8px;
+      .storesIndexTitle {
+        @include floatLeft;
+        color: $gray20;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 2em;
+      }
+      .storesIndexSubtitle {
+        @include floatLeft;
+        color: $gray20;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 2em;
+      }
+    }
+    .storesIndexList {
+      @include floatLeft;
+      background-color: #ffffff;
+      min-height: 64px;
+      margin: 8px;
+      padding: 6px;
+      border: 1px solid $gray02;
+      border-radius: 4px;
+      .storesIndexLabel {
+        @include floatLeft;
+        color: $gray30;
+        margin: 0 0 4px 0;
+        font-size: 12px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 16px;
+      }
+      .storesIndexName {
+        @include floatLeft;
+        color: $gray00;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .storesIndex {
+    .storesIndexBox {
+      .storesIndexItem {
+        width: 284px;
+        .storesIndexLink {
+        }
+      }
+      .storesIndexList {
+        width: 268px;
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .storesIndex {
+    .storesIndexBox {
+      .storesIndexItem {
+        width: 524px;
+        .storesIndexLink {
+        }
+      }
+      .storesIndexList {
+        width: 238px;
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .storesIndex {
+    .storesIndexBox {
+      .storesIndexItem {
+        width: 704px;
+        .storesIndexLink {
+        }
+      }
+      .storesIndexList {
+        width: 208px;
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .storesIndex {
+    .storesIndexBox {
+      .storesIndexItem {
+        width: 944px;
+        .storesIndexLink {
+        }
+      }
+      .storesIndexList {
+        width: 208px;
+      }
+    }
+  }
+}

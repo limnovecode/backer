@@ -1,0 +1,85 @@
+// app/assets/stylesheets/publicboard/partials/_billboard.scss
+
+//
+// Elements
+//
+
+.billboard {
+  @include floatRight;
+  .billboardBox {
+    @include floatLeft;
+    .billboardItem {
+      @include floatLeft;
+      background-color: $purple20;
+      margin: 8px;
+      .billboardLink {
+        @include floatLeft;
+        &:link,
+        &:visited {
+          color: $purple00;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+          color: $purple01;
+        }
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .billboard {
+    .billboardBox {
+      .billboardItem {
+        width: 284px;
+        height: 544px;
+        .billboardLink {
+        }
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .billboard {
+    .billboardBox {
+      .billboardItem {
+        width: 524px;
+        height: 544px;
+        .billboardLink {
+        }
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .billboard {
+    .billboardBox {
+      .billboardItem {
+        width: 704px;
+        height: 544px;
+        .billboardLink {
+        }
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .billboard {
+    .billboardBox {
+      .billboardItem {
+        width: 944px;
+        height: 544px;
+        .billboardLink {
+        }
+      }
+    }
+  }
+}

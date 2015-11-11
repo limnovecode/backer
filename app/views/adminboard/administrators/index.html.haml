@@ -1,0 +1,33 @@
+-# app/views/adminboard/administrators/index.html.haml
+
+%h1 Listing administrators
+
+%table
+  %tr
+    %th Slug
+    %th Email
+    %th Password digest
+    %th Authentication token
+    %th Reset password token
+    %th Reset password sent at
+    %th Sudo
+    %th
+    %th
+    %th
+
+  - @administrators.each do |administrator|
+    %tr
+      %td= administrator.slug
+      %td= administrator.email
+      %td= administrator.password_digest
+      %td= administrator.authentication_token
+      %td= administrator.reset_password_token
+      %td= administrator.reset_password_sent_at
+      %td= administrator.sudo
+      %td= link_to "Show", [:adminboard, administrator]
+      %td= link_to "Edit", edit_adminboard_administrator_path(administrator)
+      %td= link_to "Destroy", [:adminboard, administrator], :method => :delete, :data => { :confirm => "Are you sure?" }
+
+%br
+
+= link_to "New Administrator", new_adminboard_administrator_path

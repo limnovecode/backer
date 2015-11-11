@@ -1,0 +1,12 @@
+// vendor/assets/stylesheets/_prefixes.scss
+
+//
+//  Elements
+//
+
+@mixin prefix($property, $value, $prefixes: (webkit moz ms o)) {
+  @each $prefix in $prefixes {
+    #{"-" + $prefix + "-" + $property}: $value;
+  }
+  #{$property}: $value;
+}

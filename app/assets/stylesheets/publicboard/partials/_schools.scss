@@ -1,0 +1,117 @@
+// app/assets/stylesheets/publicboard/partials/_schools.scss
+
+//
+// Elements
+//
+
+.schools {
+  @include floatRight;
+  margin: 16px 0 128px 0;
+  .schoolsBox {
+    @include floatLeft;
+    .schoolsItem {
+      @include floatLeft;
+      margin: 8px;
+      .schoolsTitle {
+        @include floatLeft;
+        color: $gray20;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 2em;
+      }
+    }
+    .schoolsList {
+      @include floatLeft;
+      background-color: #ffffff;
+      min-height: 64px;
+      margin: 8px;
+      padding: 6px;
+      border: 1px solid $gray02;
+      border-radius: 4px;
+      .schoolsLabel {
+        @include floatLeft;
+        color: $gray30;
+        margin: 0 0 4px 0;
+        font-size: 12px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 16px;
+      }
+      .schoolsName {
+        @include floatLeft;
+        color: $gray00;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .schools {
+    .schoolsBox {
+      .schoolsItem {
+        width: 284px;
+        .schoolsLink {
+        }
+      }
+      .schoolsList {
+        width: 268px;
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .schools {
+    .schoolsBox {
+      .schoolsItem {
+        width: 524px;
+        .schoolsLink {
+        }
+      }
+      .schoolsList {
+        width: 238px;
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .schools {
+    .schoolsBox {
+      .schoolsItem {
+        width: 704px;
+        .schoolsLink {
+        }
+      }
+      .schoolsList {
+        width: 208px;
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .schools {
+    .schoolsBox {
+      .schoolsItem {
+        width: 944px;
+        .schoolsLink {
+        }
+      }
+      .schoolsList {
+        width: 208px;
+      }
+    }
+  }
+}

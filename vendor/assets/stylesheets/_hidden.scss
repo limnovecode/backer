@@ -1,0 +1,14 @@
+// vendor/assets/stylesheets/_hidden.scss
+
+//
+//  Elements
+//
+
+@mixin displayHidden {
+  display: none;
+  visibility: hidden;
+}
+
+.displayHidden {
+  @include displayHidden;
+}

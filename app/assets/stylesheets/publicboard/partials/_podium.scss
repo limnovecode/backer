@@ -1,0 +1,211 @@
+// app/assets/stylesheets/publicboard/partials/_podium.scss
+
+//
+// Elements
+//
+
+.podium {
+  @include floatRight;
+  margin: 64px 0 16px 0;
+  .podiumBox {
+    @include floatLeft;
+    .podiumItem {
+      @include floatLeft;
+      margin: 8px;
+      .podiumTitle {
+        @include floatLeft;
+        color: $gray20;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 2em;
+      }
+      .podiumText {
+        @include floatLeft;
+        color: $gray00;
+        width: 100%;
+        margin: 0 0 16px 0;
+        font-size: 18px;
+        line-height: 1.6em;
+        text-align: center;
+      }
+    }
+    .podiumList {
+      @include floatLeft;
+      background-color: $blue00;
+      margin: 8px;
+      .podiumListFirst,
+      .podiumListSecond,
+      .podiumListThird {
+        @include floatLeft;
+        background-color: $gray03;
+      }
+      .podiumListFirst,
+      .podiumListSecond,
+      .podiumListThird {
+        width: 100%;
+        position: relative;
+        .podiumName {
+          color: $blue20;
+          width: 100%;
+          margin: 0 0 8px 0;
+          font-size: 22px;
+          font-weight: 100;
+          text-align: center;
+          line-height: 1.6em;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .podium {
+    .podiumBox {
+      .podiumItem {
+        width: 284px;
+        .podiumTitle {
+        }
+        .podiumText {
+        }
+      }
+      .podiumList {
+        width: 84px;
+        height: 256px;
+        .podiumListFirst,
+        .podiumListSecond,
+        .podiumListThird {
+        }
+        .podiumListFirst,
+        .podiumListSecond,
+        .podiumListThird {
+          .podiumName {
+          }
+        }
+        .podiumListFirst {
+          height: 70%;
+        }
+        .podiumListSecond {
+          height: 80%;
+        }
+        .podiumListThird {
+          height: 90%;
+        }
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .podium {
+    .podiumBox {
+      .podiumItem {
+        width: 524px;
+        .podiumLink {
+        }
+      }
+      .podiumList {
+        width: 164px;
+        height: 256px;
+        .podiumListFirst,
+        .podiumListSecond,
+        .podiumListThird {
+        }
+        .podiumListFirst,
+        .podiumListSecond,
+        .podiumListThird {
+          .podiumName {
+          }
+        }
+        .podiumListFirst {
+          height: 40%;
+        }
+        .podiumListSecond {
+          height: 55%;
+        }
+        .podiumListThird {
+          height: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .podium {
+    .podiumBox {
+      .podiumItem {
+        width: 704px;
+        .podiumLink {
+        }
+      }
+      .podiumList {
+        width: 224px;
+        height: 256px;
+        .podiumListFirst,
+        .podiumListSecond,
+        .podiumListThird {
+        }
+        .podiumListFirst,
+        .podiumListSecond,
+        .podiumListThird {
+          .podiumName {
+          }
+        }
+        .podiumListFirst {
+          height: 40%;
+        }
+        .podiumListSecond {
+          height: 55%;
+        }
+        .podiumListThird {
+          height: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .podium {
+    .podiumBox {
+      .podiumItem {
+        width: 944px;
+        .podiumLink {
+        }
+      }
+      .podiumList {
+        width: 304px;
+        height: 256px;
+        .podiumListFirst,
+        .podiumListSecond,
+        .podiumListThird {
+        }
+        .podiumListFirst,
+        .podiumListSecond,
+        .podiumListThird {
+          .podiumName {
+          }
+        }
+        .podiumListFirst {
+          height: 30%;
+        }
+        .podiumListSecond {
+          height: 50%;
+        }
+        .podiumListThird {
+          height: 70%;
+        }
+      }
+    }
+  }
+}

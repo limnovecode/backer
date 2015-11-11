@@ -1,0 +1,68 @@
+// app/assets/stylesheets/publicboard/partials/_map.scss
+
+//
+// Elements
+//
+
+.map {
+  @include floatRight;
+  width: 100%;
+  margin: 0 0 64px 0;
+  .mapBox {
+    @include floatLeft;
+    width: 100%;
+    padding: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    .mapItem {
+      @include floatLeft;
+      background-color: $purple20;
+      width: 100%;
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .map {
+    .mapBox {
+      .mapItem {
+        height: 524px;
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .map {
+    .mapBox {
+      .mapItem {
+        height: 524px;
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .map {
+    .mapBox {
+      .mapItem {
+        height: 524px;
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .map {
+    .mapBox {
+      .mapItem {
+        height: 524px;
+      }
+    }
+  }
+}

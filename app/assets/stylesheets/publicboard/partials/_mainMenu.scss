@@ -1,0 +1,78 @@
+// app/assets/stylesheets/publicboard/partials/_mainMenu.scss
+
+//
+// Elements
+//
+
+.mainMenu {
+  @include floatRight;
+  .mainMenuBox {
+    @include floatLeft;
+    .mainMenuList {
+      @include floatLeft;
+      margin: 8px;
+      .mainMenuLink {
+        @include floatLeft;
+        width: auto;
+        line-height: 64px;
+        &:link,
+        &:visited {
+          color: $purple00;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+          color: $purple01;
+        }
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .mainMenu {
+    .mainMenuBox {
+      .mainMenuList {
+        .mainMenuLink {
+        }
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .mainMenu {
+    .mainMenuBox {
+      .mainMenuList {
+        .mainMenuLink {
+        }
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .mainMenu {
+    .mainMenuBox {
+      .mainMenuList {
+        .mainMenuLink {
+        }
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .mainMenu {
+    .mainMenuBox {
+      .mainMenuList {
+        .mainMenuLink {
+        }
+      }
+    }
+  }
+}

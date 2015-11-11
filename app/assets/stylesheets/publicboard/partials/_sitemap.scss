@@ -1,0 +1,82 @@
+// app/assets/stylesheets/publicboard/partials/_sitemap.scss
+
+//
+// Elements
+//
+
+.sitemap {
+  @include floatRight;
+  .sitemapBox {
+    @include floatLeft;
+    padding: 4px;
+    .sitemapList {
+      @include floatLeft;
+      margin: 4px;
+      .sitemapLink {
+        @include floatLeft;
+        font-size: 10px;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-decoration: underline;
+        line-height: 32px;
+        &:link,
+        &:visited {
+          color: $purple00;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+          color: $purple01;
+        }
+      }
+    }
+  }
+}
+
+//
+// Media Queries
+//
+
+@media #{$tiny} {
+  .sitemap {
+    .sitemapBox {
+      .sitemapList {
+        .sitemapLink {
+        }
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .sitemap {
+    .sitemapBox {
+      .sitemapList {
+        .sitemapLink {
+        }
+      }
+    }
+  }
+}
+
+@media #{$medium} {
+  .sitemap {
+    .sitemapBox {
+      .sitemapList {
+        .sitemapLink {
+        }
+      }
+    }
+  }
+}
+
+@media #{$large} {
+  .sitemap {
+    .sitemapBox {
+      .sitemapList {
+        .sitemapLink {
+        }
+      }
+    }
+  }
+}
