@@ -11,16 +11,25 @@
     .logoList {
       @include floatLeft;
       margin: 8px;
-      .logoBtn {
+      .logoText {
+        color: $purple03;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 64px;
+      }
+      .logoLink {
         @include floatLeft;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 64px;
         &:link,
         &:visited {
-          background-color: $purple00;
+          color: $purple03;
         }
         &:hover,
         &:focus,
         &:active {
-          background-color: $purple01;
+          color: $purple02;
         }
       }
     }
@@ -35,9 +44,7 @@
   .logo {
     .logoBox {
       .logoList {
-        .logoBtn {
-          width: 48px;
-          height: 48px;
+        .logoLink {
         }
       }
     }
@@ -48,9 +55,7 @@
   .logo {
     .logoBox {
       .logoList {
-        .logoBtn {
-          width: 48px;
-          height: 48px;
+        .logoLink {
         }
       }
     }
@@ -61,9 +66,7 @@
   .logo {
     .logoBox {
       .logoList {
-        .logoBtn {
-          width: 64px;
-          height: 64px;
+        .logoLink {
         }
       }
     }
@@ -74,9 +77,7 @@
   .logo {
     .logoBox {
       .logoList {
-        .logoBtn {
-          width: 64px;
-          height: 64px;
+        .logoLink {
         }
       }
     }

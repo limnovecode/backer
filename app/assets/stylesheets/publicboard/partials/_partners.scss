@@ -6,7 +6,7 @@
 
 .partners {
   @include floatRight;
-  margin: 64px 0;
+  margin: 128px 0 64px 0;
   .partnersBox {
     @include floatLeft;
     .partnersItem {

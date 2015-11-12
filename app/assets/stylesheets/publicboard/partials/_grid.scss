@@ -1,18 +1,18 @@
-// app/assets/stylesheets/publicboard/partials/_storesIndex.scss
+// app/assets/stylesheets/publicboard/partials/_grid.scss
 
 //
 // Elements
 //
 
-.storesIndex {
+.grid {
   @include floatRight;
-  margin: 0 0 64px 0;
-  .storesIndexBox {
+  margin: 0 0 128px 0;
+  .gridBox {
     @include floatLeft;
-    .storesIndexItem {
+    .gridItem {
       @include floatLeft;
       margin: 8px;
-      .storesIndexTitle {
+      .gridTitle {
         @include floatLeft;
         color: $gray20;
         width: 100%;
@@ -22,7 +22,7 @@
         text-transform: uppercase;
         line-height: 2em;
       }
-      .storesIndexSubtitle {
+      .gridSubtitle {
         @include floatLeft;
         color: $gray20;
         width: 100%;
@@ -31,7 +31,7 @@
         line-height: 2em;
       }
     }
-    .storesIndexList {
+    .gridList {
       @include floatLeft;
       background-color: #ffffff;
       min-height: 64px;
@@ -39,7 +39,7 @@
       padding: 6px;
       border: 1px solid $gray02;
       border-radius: 4px;
-      .storesIndexLabel {
+      .gridLabel {
         @include floatLeft;
         color: $gray30;
         margin: 0 0 4px 0;
@@ -48,7 +48,7 @@
         text-transform: uppercase;
         line-height: 16px;
       }
-      .storesIndexName {
+      .gridName {
         @include floatLeft;
         color: $gray00;
         width: 100%;
@@ -65,14 +65,12 @@
 //
 
 @media #{$tiny} {
-  .storesIndex {
-    .storesIndexBox {
-      .storesIndexItem {
+  .grid {
+    .gridBox {
+      .gridItem {
         width: 284px;
-        .storesIndexLink {
-        }
       }
-      .storesIndexList {
+      .gridList {
         width: 268px;
       }
     }
@@ -80,14 +78,12 @@
 }
 
 @media #{$small} {
-  .storesIndex {
-    .storesIndexBox {
-      .storesIndexItem {
+  .grid {
+    .gridBox {
+      .gridItem {
         width: 524px;
-        .storesIndexLink {
-        }
       }
-      .storesIndexList {
+      .gridList {
         width: 238px;
       }
     }
@@ -95,14 +91,12 @@
 }
 
 @media #{$medium} {
-  .storesIndex {
-    .storesIndexBox {
-      .storesIndexItem {
+  .grid {
+    .gridBox {
+      .gridItem {
         width: 704px;
-        .storesIndexLink {
-        }
       }
-      .storesIndexList {
+      .gridList {
         width: 208px;
       }
     }
@@ -110,14 +104,12 @@
 }
 
 @media #{$large} {
-  .storesIndex {
-    .storesIndexBox {
-      .storesIndexItem {
+  .grid {
+    .gridBox {
+      .gridItem {
         width: 944px;
-        .storesIndexLink {
-        }
       }
-      .storesIndexList {
+      .gridList {
         width: 208px;
       }
     }

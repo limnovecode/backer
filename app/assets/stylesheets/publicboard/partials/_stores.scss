@@ -6,7 +6,7 @@
 
 .stores {
   @include floatRight;
-  margin: 64px 0 0 0;
+  margin: 128px 0 0 0;
   .storesBox {
     @include floatLeft;
     .storesItem {
@@ -37,7 +37,7 @@
         font-size: 18px;
         text-align: center;
         line-height: 64px;
-        border-radius: 30px;
+        border-radius: 8px;
         &:link,
         &:visited {
           color: $purple03;
@@ -63,12 +63,8 @@
     .storesBox {
       .storesItem {
         width: 284px;
-        .storesTitle {
-        }
-        .storesText {
-        }
         .storesLink {
-          margin: 16px 46px 0 46px;
+          margin: 16px 46px;
         }
       }
     }
@@ -80,12 +76,8 @@
     .storesBox {
       .storesItem {
         width: 524px;
-        .storesTitle {
-        }
-        .storesText {
-        }
         .storesLink {
-          margin: 16px 166px 0 166px;
+          margin: 16px 166px;
         }
       }
     }
@@ -97,12 +89,8 @@
     .storesBox {
       .storesItem {
         width: 704px;
-        .storesTitle {
-        }
-        .storesText {
-        }
         .storesLink {
-          margin: 16px 256px 0 256px;
+          margin: 16px 256px;
         }
       }
     }
@@ -114,12 +102,8 @@
     .storesBox {
       .storesItem {
         width: 944px;
-        .storesTitle {
-        }
-        .storesText {
-        }
         .storesLink {
-          margin: 16px 376px 0 376px;
+          margin: 16px 376px;
         }
       }
     }
