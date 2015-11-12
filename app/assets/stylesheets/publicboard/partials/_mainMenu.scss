@@ -13,16 +13,19 @@
       margin: 8px;
       .mainMenuLink {
         @include floatLeft;
-        width: auto;
+        font-size: 12px;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-decoration: underline;
         line-height: 64px;
         &:link,
         &:visited {
-          color: $purple00;
+          color: $purple02;
         }
         &:hover,
         &:focus,
         &:active {
-          color: $purple01;
+          color: $purple03;
         }
       }
     }

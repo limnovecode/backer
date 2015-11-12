@@ -6,7 +6,7 @@
 
 .podium {
   @include floatRight;
-  margin: 64px 0 16px 0;
+  margin: 64px 0 32px 0;
   .podiumBox {
     @include floatLeft;
     .podiumItem {
@@ -41,10 +41,6 @@
       .podiumListThird {
         @include floatLeft;
         background-color: $gray03;
-      }
-      .podiumListFirst,
-      .podiumListSecond,
-      .podiumListThird {
         width: 100%;
         position: relative;
         .podiumName {
@@ -73,24 +69,10 @@
     .podiumBox {
       .podiumItem {
         width: 284px;
-        .podiumTitle {
-        }
-        .podiumText {
-        }
       }
       .podiumList {
         width: 84px;
         height: 256px;
-        .podiumListFirst,
-        .podiumListSecond,
-        .podiumListThird {
-        }
-        .podiumListFirst,
-        .podiumListSecond,
-        .podiumListThird {
-          .podiumName {
-          }
-        }
         .podiumListFirst {
           height: 70%;
         }
@@ -110,22 +92,10 @@
     .podiumBox {
       .podiumItem {
         width: 524px;
-        .podiumLink {
-        }
       }
       .podiumList {
         width: 164px;
         height: 256px;
-        .podiumListFirst,
-        .podiumListSecond,
-        .podiumListThird {
-        }
-        .podiumListFirst,
-        .podiumListSecond,
-        .podiumListThird {
-          .podiumName {
-          }
-        }
         .podiumListFirst {
           height: 40%;
         }
@@ -145,22 +115,10 @@
     .podiumBox {
       .podiumItem {
         width: 704px;
-        .podiumLink {
-        }
       }
       .podiumList {
         width: 224px;
         height: 256px;
-        .podiumListFirst,
-        .podiumListSecond,
-        .podiumListThird {
-        }
-        .podiumListFirst,
-        .podiumListSecond,
-        .podiumListThird {
-          .podiumName {
-          }
-        }
         .podiumListFirst {
           height: 40%;
         }
@@ -180,22 +138,10 @@
     .podiumBox {
       .podiumItem {
         width: 944px;
-        .podiumLink {
-        }
       }
       .podiumList {
         width: 304px;
         height: 256px;
-        .podiumListFirst,
-        .podiumListSecond,
-        .podiumListThird {
-        }
-        .podiumListFirst,
-        .podiumListSecond,
-        .podiumListThird {
-          .podiumName {
-          }
-        }
         .podiumListFirst {
           height: 30%;
         }
